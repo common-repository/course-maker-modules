@@ -1,0 +1,113 @@
+.course-maker-modules .module {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+	float: left;
+	margin-left: 0;
+	margin-right: 2%;
+	padding: 15px;
+	padding: 1.5rem;
+	width: 32%;
+}
+
+.course-maker-modules .module:nth-of-type(3n+1) {
+    clear: left;
+}
+
+.course-maker-modules .module:nth-of-type(3n+3) {
+    margin-right: 0;
+}
+
+.course-maker-modules .archive-pagination {
+    clear: both;
+}
+
+.course-maker-modules .module .entry-header .entry-title {
+	border: none;
+	font-size: 20px;
+	margin: 20px 0 0;
+	padding: 0;
+}
+
+.course-maker-modules .content .module {
+	border: none;
+	margin-bottom: 40px;
+	text-align: center;
+	background-image: none;
+}
+
+.course-maker-modules .content .entry-header {
+	border: medium none;
+	margin: 0;
+	padding: 0;
+}
+
+.course-maker-modules .content .entry-content {
+	margin: 0;
+	padding: 0;
+}
+
+.course-maker-modules .module .entry-header .entry-title {
+	word-wrap: break-word;
+	border: none;
+	font-size: 20px;
+	margin: 20px 0 0;
+	padding: 0;
+}
+
+.course-maker-modules .entry-header .entry-meta {
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0;
+    padding: 5px;
+    text-transform: none;
+}
+
+.course-maker-modules .content .entry-header .entry-meta .entry-comments-link {
+    display: block;
+    float: none;
+    margin-top: 5px;
+    padding-bottom: 0;
+}
+
+.course-maker-modules .entry-author,
+.course-maker-modules .entry-comments-link,
+.course-maker-modules .entry-time {
+    border-width: 0;
+    float: none;
+    margin: 0;
+    width: auto;
+}
+
+.course-maker-modules .entry-author:before,
+.course-maker-modules .entry-comments-link:before,
+.entry-time:before {
+    content: "";
+}
+
+.course-maker-modules .module .entry-header .entry-title {
+    margin: 20px 0 10px;
+}
+
+.course-maker-modules .entry-header .entry-meta {
+    line-height: 1.6;
+}
+
+.course-maker-modules .entry-comments-link:before {
+    display: none;
+}
+
+.course-maker-modules .content .entry-header .entry-meta .entry-comments-link a {
+    background-image: none;
+    display: block;
+    padding: 5px 8px;
+    position: static;
+}
+
+@media only screen and (max-width: 780px) {
+
+	.course-maker-modules .module {
+		width: 100%;
+	}
+
+}
